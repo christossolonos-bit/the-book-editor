@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+__pycache__/
+*.pyc
+
+# Large Amazon / Docs exports (regenerate locally with export scripts)
+amazon-ready/
+google-docs-export/
+Prove Them Wrong - *.docx
+
+# Local editor server state
+.cursor/editor-server.pid
+.cursor/editor-server.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

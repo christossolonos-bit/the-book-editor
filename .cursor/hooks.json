@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python .cursor/hooks/editor_server.py start"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "python .cursor/hooks/editor_server.py stop"
+      }
+    ]
+  }
+}
